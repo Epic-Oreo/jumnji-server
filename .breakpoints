@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.py": [
+      {
+        "id": "95104e49-2221-4c40-86db-391346058183",
+        "line": 1,
+        "version": 968,
+        "index": 0
+      }
+    ],
+    "settings/cards.json": [
+      {
+        "id": "4c9bb72a-e401-4a8f-9504-0625d6f9bcba",
+        "line": 1,
+        "version": 274,
+        "index": 1
+      }
+    ]
+  }
+}
