@@ -1,19 +1,73 @@
 {
   "files": {
-    "main.py": [
+    "managers/shop/playerShop.py": [
       {
-        "id": "95104e49-2221-4c40-86db-391346058183",
-        "line": 1,
-        "version": 968,
-        "index": 0
+        "id": "26cf9540-255a-4869-a653-cab46775c2e1",
+        "line": 72,
+        "version": 2733,
+        "index": 1672
+      },
+      {
+        "id": "685fb93f-52bd-4e36-b585-780761c8e20e",
+        "line": 110,
+        "version": 2733,
+        "index": 2384
       }
     ],
-    "settings/cards.json": [
+    "settings/packs.json": [
       {
-        "id": "4c9bb72a-e401-4a8f-9504-0625d6f9bcba",
-        "line": 1,
-        "version": 274,
-        "index": 1
+        "id": "e3a00d20-fe6a-42cf-89cd-ff03056b41eb",
+        "line": 104,
+        "version": 273,
+        "index": 1902
+      }
+    ],
+    "webdata/static/js/tradeHall.js": [
+      {
+        "id": "0ad3d8d3-feec-4c86-b83e-f8e1a35935cb",
+        "line": 10,
+        "version": 146,
+        "index": 193
+      }
+    ],
+    "webdata/templates/index.html": [
+      {
+        "id": "cfd9872d-e980-41b4-801c-04b65c675dce",
+        "line": 17,
+        "version": 509,
+        "index": 527
+      }
+    ],
+    "webdata/templates/main.html": [
+      {
+        "id": "2d75e837-9e33-41b1-8862-4420fc19e55d",
+        "line": 7,
+        "version": 4335,
+        "index": 145
+      },
+      {
+        "id": "3326a42f-0aad-4afb-9bd2-b8f59c1e4ebd",
+        "line": 7,
+        "version": 4335,
+        "index": 145
+      },
+      {
+        "id": "29ce520b-63c6-4ed8-afc1-5e17d9555ba9",
+        "line": 15,
+        "version": 4335,
+        "index": 380
+      },
+      {
+        "id": "6f7be618-0682-4428-b185-2b4d481bc855",
+        "line": 183,
+        "version": 4335,
+        "index": 11390
+      },
+      {
+        "id": "ba486d43-1ba9-441b-bdd2-03d96a75d7fa",
+        "line": 183,
+        "version": 4335,
+        "index": 11390
       }
     ]
   }

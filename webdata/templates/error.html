@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jumnji Main Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='content/favicon.ico') }}">
+  </head>
+  
+  <body>
+
+    <main id="main-holder">
+      
+      <h1 id="error">Error</h1>
+
+      <p id="error">{{error}}</p>
+    
+      <a href="/"><button>Main Menu</button></a>
+
+
+      <script src="{{ url_for('static', filename='js/user.js') }}"></script>
+      <a id = "reset-data-link" href="#" onclick="resLogout()">Reset Login Data</a>
+    </main> 
+
+  </body>
+</html>

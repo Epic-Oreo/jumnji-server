@@ -1,0 +1,15 @@
+[
+    {
+        "lobbyName": "poopy",
+        "type": 1,
+        "tokens": [
+            {
+                "name": "admin",
+                "token": "6c63d35d-42f4-436a-95ae-586c830a44f2",
+                "user_type": 2
+            }
+        ],
+        "id": 12717593,
+        "initTime": 1644854697.1843517
+    }
+]

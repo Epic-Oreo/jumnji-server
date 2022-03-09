@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jumnji Main Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='content/favicon.ico') }}">
+  </head>
+  
+  <body>
+
+    <form id="hidden-form", action = "/main", method="post" style="visibility: hidden" hidden>
+      <input  type="hidden" name="loginType" value="token" />
+      <input id="token-field" type="hidden" name="token" value=null />
+    </form>
+
+
+    <script src="{{ url_for('static', filename='js/user.js') }}"></script>
+    <script>check_for_login()</script>
+
+    <main id="main-holder">
+      
+      <h1 id="login-header">Login</h1>
+      
+      <form id="login-form", action = "/main", method="post">
+        <input type="hidden" name="loginType" value="userPw" />
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"required>
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"required>
+        <input type="submit" value="Login" id="login-form-submit">
+      </form>
+    
+    </main> 
+
+  </body>
+</html>
+

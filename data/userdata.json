@@ -1,7 +1,46 @@
 [
     {
-        "user": "username",
-        "pw": "password",
-        "id": 1234569
+        "user": "super",
+        "pw": "Bruuuuuu12",
+        "token": "5fbf6d76-5b2a-49b1-9041-115fe4acd2b7",
+        "data": {
+            "money": 100,
+            "cards": []
+        }
     },
+    {
+        "user": "admin",
+        "pw": "admin1",
+        "token": "6c63d35d-42f4-436a-95ae-586c830a44f2",
+        "data": {
+            "money": 195,
+            "cards": [
+                7464446644,
+                7464446644,
+                4418451789
+            ]
+        }
+    },
+    {
+        "user": "duncanhenry",
+        "pw": "Mrmoobies11",
+        "token": "859db23b-aee8-4319-9a57-726da02d47e0",
+        "data": {
+            "money": 100,
+            "cards": []
+        }
+    },
+    {
+        "user": "test",
+        "pw": "test",
+        "token": "5ac944f4-239a-4cfa-98fb-cdab0a0843cf",
+        "data": {
+            "money": 100,
+            "cards": [
+                9008307147,
+                7464446644,
+                6854824100
+            ]
+        }
+    }
 ]

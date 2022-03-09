@@ -1,0 +1,104 @@
+[
+    {
+        "name":"Test",
+        "price":20,
+        "id":3213123,
+        "enabled":false,
+        "items":[
+            {
+              "type":"card",
+              "weight":1,
+              "id": 9008307147
+            },
+            {
+              "type":"money",
+              "weight":1,
+              "ammount":10
+            }
+        ]
+    },
+    {
+      "name": "Mystic",
+      "price": 50,
+      "id":31238103,
+      "enabled":true,
+      "items": [
+        {
+          "type": "card",
+          "weight": 1,
+          "id": 8857721281
+        },
+        {
+          "type": "money",
+          "weight": 1,
+          "ammount": 200
+        },
+        {
+          "type": "money",
+          "weight": 3,
+          "ammount": 400
+        },
+        {
+          "type": "card",
+          "weight": 2,
+          "id": 4418451789
+        }
+      ]
+    },
+    {
+      "name": "Lotto (1-35)",
+      "price": 100,
+      "enabled": true,
+      "id": 7012361666,
+      "items": [
+        {
+          "type": "money",
+          "weight": 15,
+          "ammount": 10
+        },
+        {
+          "type": "money",
+          "weight": 1,
+          "ammount": 400
+        },
+        {
+          "type": "money",
+          "weight": 5,
+          "ammount": 25
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "price": 10,
+      "enabled": true,
+      "id": 1933168189,
+      "items": [
+        {
+          "type": "card",
+          "weight": 1,
+          "id": 9008307147
+        },
+        {
+          "type": "card",
+          "weight": 1,
+          "id": 231071384
+        },
+        {
+          "type": "card",
+          "weight": 6854824100,
+          "id": 6854824100
+        },
+        {
+          "type": "card",
+          "weight": 1,
+          "id": 581515233
+        },
+        {
+          "type": "money",
+          "weight": 2,
+          "ammount": 5
+        }
+      ]
+  }
+]

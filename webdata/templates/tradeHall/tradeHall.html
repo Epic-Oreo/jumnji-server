@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Jumnji Main Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tradeHall.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='content/favicon.ico') }}">
+  </head>
+
+  <body>
+    <main id="main-holder">
+
+      <div id="outerGrid">
+
+      {%for item in items%}
+
+        <div class="grid-item">
+          <div style="margin:10px;">
+            <u><h4 class="{{ item["cardParse"]["rarity"] }}">{{item["cardDetails"]["name"]}}</h4></u>
+            <!-- <br> -->
+            <p class="money">${{item["price"]}}</p>
+            <p>Seller: {{item["creator"]["name"]}}</p>
+            <form action="/tradehall/buy" method="POST">
+              <input type="hidden" name="token" value="{{userData["token"]}}"/>
+              <input type="hidden" name="item" value="{{item["id"]}}"/>
+
+              <input type="submit" class="buyButton" value="Buy" onclick="return confirm('Confirm, please.');"/>
+            </form>
+          </div>
+        </div>
+
+      {%endfor%}
+      </div>
+
+      <div class="bottom">
+        <a style="margin-right:12px;" class="fitSize bottom-item" href="/main"> 
+          Main Menu
+        </a>
+        <div class="bottom-text fitSize money bottom">
+          Balance: ${{userData["data"]["money"]}}
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

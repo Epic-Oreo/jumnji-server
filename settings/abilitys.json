@@ -1,5 +1,57 @@
 [
   {
-    "id":10137197319731902837197318371
+    "name": "Freeze Breath",
+    "discription": "opponent card is out for 2 rounds",
+    "id": 1
+  },
+  {
+    "name": "Cloraform",
+    "discription": "knocks out opponent card for a round",
+    "id": 2
+  },
+  {
+    "name": "Fire breathing",
+    "discription": "",
+    "id": 3
+  },
+  {
+    "name": "Lightning powers",
+    "discription": "",
+    "id": 4
+  },
+  {
+    "name": "Tsunami",
+    "discription": "",
+    "id": 5
+  },
+  {
+    "name": "Evil cactus attack",
+    "discription": "",
+    "id": 6
+  },
+  {
+    "name": "Shrink ray",
+    "discription": "lowers opponent's attack damage",
+    "id": 7
+  },
+  {
+    "name": "Exhaustion",
+    "discription": "",
+    "id": 8
+  },
+  {
+    "name": "Healing of god",
+    "discription": "Gods breath heals you by 20HP",
+    "id" : 9
+  },
+  {
+    "name":"Davids HAND",
+    "discription":"Davids hand deals 200,000,000,000 dammage and heals the play to 100% health",
+    "id": 10
+  },
+  {
+    "name":"Light From heaven",
+    "discription":"Heals the player by 10HP",
+    "id": 11
   }
 ]

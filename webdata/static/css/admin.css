@@ -1,0 +1,66 @@
+.dropbtn {
+  
+  background-color: var(--item-background-color);;
+  color: white;
+  padding: 7px;
+  font-size: 16px;
+  border: black solid 2px;
+}
+
+.dropup {
+  display: inline-block;
+  /* position: fixed;
+  left: 240px;
+  bottom: 1px; */
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: var(--item-background-color);
+  min-width: 160px;
+  bottom: 34px;
+  z-index: 1;
+  border: solid black 2px;
+}
+
+.dropup-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: var(--accent-color)}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+
+.dropup:hover .dropbtn {
+  background-color: var(--accent-color);
+}
+
+
+#command-field,
+#command-form-submit {
+  background-color: #2F2F2E;
+  border: 1px white solid;
+  color: white;
+  padding: 3px;
+  border-radius: 6px;
+  margin: 4px;
+}
+#command-field {
+  display: inline-block;
+}
+#command-form-submit {
+  cursor: pointer; 
+}
+
+.adminOptions {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}

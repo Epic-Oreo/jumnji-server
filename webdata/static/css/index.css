@@ -1,0 +1,122 @@
+  /*
+Text and accents = 'white'
+
+main Bg = #2F2F2E
+
+second background = #313030
+
+form selected = #a0a0a0
+
+*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #2F2F2E;
+  color: white;
+}
+
+#main-holder {
+  max-height: 328px;
+
+  min-height: 275px;
+
+
+  width: 250px;
+  height: 50%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #313030;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+#login-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.login-form-field::placeholder {
+  color: white;
+}
+
+.login-form-field {
+  border: none;
+
+  border-bottom: 1px solid white;
+  
+  background-color: #313030;
+  color: white;
+
+  margin-bottom: 10px;
+  border-radius: 4px;
+  outline: none;
+  
+  padding: 1px 1px 5px 5px;
+
+  transition-duration: 0.6s;
+}
+
+.login-form-field:focus {
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+#login-form-submit {
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  border: solid white 1px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #313030;
+  cursor: pointer;
+  outline: none;
+  transition-duration: 0.6s;
+}
+
+
+#login-form-submit:hover {
+  background-color: white;
+  color: #313030;
+}
+
+
+button {
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  border: solid white 1px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #313030;
+  cursor: pointer;
+  outline: none;
+  transition-duration: 0.6s;
+}
+
+button:hover {
+  background-color: white;
+  color: #313030;
+}
+
+[hidden] {
+  display: none;
+}
+
+#reset-data-link {
+  font-size: 10px;
+  color: white;
+}

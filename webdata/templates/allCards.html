@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Jumnji Main Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/allCards.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='content/favicon.ico') }}">
+  </head>
+
+  <body>
+    <main id="main-holder">
+
+      <div id="outerGrid">
+
+      {%for card in cards%}
+
+        <div class="grid-item">
+          <div style="margin:10px;">
+            <u><h4 class="{{ card["rarityName"] }}">{{card["name"]}}</h4></u>
+            <!-- <br> -->
+            <p>Element: <span class="{{ card["elementName"] }}">{{ card["elementName"] }}</span></p>
+            <p>Rarity: <span class="{{card["rarityName"]}}"> {{card["rarityName"]}}</span></p>
+            <p>Health: <span class="health">{{card["health"]}}</span></p>
+            <p>Damage: <span class="attack">{{card["damage"]}}</span></p>
+            
+            {% if card["ability"] %}
+
+            <p>Ability: {{card["abilityName"]}} {% if card["abilityDisc"] %}({{card["abilityDisc"]}}) {%endif%}</p>
+
+            {% endif %}
+
+            {% if isadmin %}
+            <p>Id: {{card["id"]}}</p>
+            {% endif %}
+          </div>
+        </div>
+
+      {%endfor%}
+
+      </div>
+      <a href="/main">
+        <div class="item bottom-item">
+          Main Menu
+        </div>
+      </a>
+
+
+    </div>
+
+  </body>
+</html>

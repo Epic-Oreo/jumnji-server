@@ -1,34 +1,272 @@
 [
     {
-        "name": "duncan",
-        "rarity": 1,
-        "element": 2,
-        "ability": "oops, I tripped again",
-        "health": 2,
-        "damage": -3
-    },
-    {
-        "name": "fat 'ash'",
+        "name": "David",
         "rarity": 4,
-        "element": 2,
-        "ability": "Can shoot a turd out at high volosity",
-        "health": 5000000000,
-        "damage": 20
+        "element": 4,
+        "ability": 10,
+        "health": 2000,
+        "damage": 10,
+        "id": 8857721281,
+        "visible": false
     },
     {
-        "name": "that dude behind the store giving out 'favors'",
+        "name": "Oskar",
+        "rarity": 4,
+        "element": 8,
+        "ability": 2,
+        "health": 100000000,
+        "damage": 200000000,
+        "id": 9732808655,
+        "visible": false
+    },
+    {
+        "name": "Eater of Gods",
         "rarity": 4,
         "element": 1,
-        "ability": "fast arm",
-        "health": -1,
-        "damage": 20000
+        "ability": 3,
+        "health": 500,
+        "damage": 12,
+        "id": 4418451789,
+        "visible": true
     },
     {
-        "name": "Fiery Fiend",
+        "name": "Skinrender",
+        "rarity": 2,
+        "element": 4,
+        "ability": null,
+        "health": 100,
+        "damage": 15,
+        "id": 1547847340,
+        "visible": true
+    },
+    {
+        "name": "Pooloo, The Night Fiend",
+        "rarity": 1,
+        "element": 6,
+        "ability": null,
+        "health": 10,
+        "damage": 50,
+        "id": 9008307147,
+        "visible": true
+    },
+    {
+        "name": "Dreamtree",
+        "rarity": 2,
+        "element": 7,
+        "ability": 8,
+        "health": 35,
+        "damage": 10,
+        "id": 7464446644,
+        "visible": true
+    },
+    {
+        "name": "Angel of light",
+        "rarity": 3,
+        "element": 5,
+        "ability": 9,
+        "health": 123,
+        "damage": 10,
+        "id": 960266009,
+        "visible": true
+    },
+    {
+        "name": "The Reaper",
+        "rarity": 4,
+        "element": 8,
+        "ability": null,
+        "health": 230,
+        "damage": 75,
+        "id": 9868048756,
+        "visible": true
+    },
+    {
+        "name": "Naheb",
         "rarity": 2,
         "element": 1,
-        "ability": "Breaths Fire",
-        "health": 87,
-        "damage": 29
+        "ability": 3,
+        "health": 33,
+        "damage": 45,
+        "id": 3001688376,
+        "visible": true
+    },
+    {
+        "name": "Jin",
+        "rarity": 3,
+        "element": 3,
+        "ability": null,
+        "health": 115,
+        "damage": 12,
+        "id": 5215934423,
+        "visible": true
+    },
+    {
+        "name": "The Living Island",
+        "rarity": 2,
+        "element": 4,
+        "ability": null,
+        "health": 20,
+        "damage": 32,
+        "id": 2619284135,
+        "visible": true
+    },
+    {
+        "name": "Fish of The Deep",
+        "rarity": 1,
+        "element": 2,
+        "ability": null,
+        "health": 50,
+        "damage": 10,
+        "id": 231071384,
+        "visible": true
+    },
+    {
+        "name": "Orboa, the Conquerer",
+        "rarity": 3,
+        "element": 6,
+        "ability": 8,
+        "health": 95,
+        "damage": 45,
+        "id": 7820390938,
+        "visible": true
+    },
+    {
+        "name": "Prophets Disciple",
+        "rarity": 1,
+        "element": 5,
+        "ability": null,
+        "health": 15,
+        "damage": 20,
+        "id": 6854824100,
+        "visible": true
+    },
+    {
+        "name": "The man in the shade (ADD ABILITY!)",
+        "rarity": 3,
+        "element": 7,
+        "ability": null,
+        "health": 5,
+        "damage": 5,
+        "id": 2471826430,
+        "visible": true
+    },
+    {
+        "name": "Argasa, the Holy Prophet",
+        "rarity": 3,
+        "element": 5,
+        "ability": 9,
+        "health": 175,
+        "damage": 50,
+        "id": 5019653027,
+        "visible": true
+    },
+    {
+        "name": "The Titan",
+        "rarity": 1,
+        "element": 5,
+        "ability": 5,
+        "health": 45,
+        "damage": 10,
+        "id": 1979556001,
+        "visible": true
+    },
+    {
+        "name": "Dreamcatchers Companion",
+        "rarity": 1,
+        "element": 7,
+        "ability": null,
+        "health": 15,
+        "damage": 25,
+        "id": 581515233,
+        "visible": true
+    },
+    {
+        "name": "The gem in the water",
+        "rarity": 2,
+        "element": 2,
+        "ability": null,
+        "health": 10,
+        "damage": 23,
+        "id": 8897489100,
+        "visible": true
+    },
+    {
+        "name": "The lunar prince",
+        "rarity": 1,
+        "element": 5,
+        "ability": null,
+        "health": 10,
+        "damage": 15,
+        "id": 2814224543,
+        "visible": true
+    },
+    {
+        "name": "Dark Tunneler",
+        "rarity": 1,
+        "element": 6,
+        "ability": null,
+        "health": 30,
+        "damage": 20,
+        "id": 5711092380,
+        "visible": true
+    },
+    {
+        "name": "King of Darkness",
+        "rarity": 4,
+        "element": 6,
+        "ability": 6,
+        "health": 550,
+        "damage": 100,
+        "id": 3940817871,
+        "visible": true
+    },
+    {
+        "name": "Howling Spirit",
+        "rarity": 2,
+        "element": 3,
+        "ability": 8,
+        "health": 5,
+        "damage": 45,
+        "id": 5148536049,
+        "visible": true
+    },
+    {
+        "name": "Rays from god",
+        "rarity": 2,
+        "element": 5,
+        "ability": 11,
+        "health": 1,
+        "damage": 1,
+        "id": 8460766351,
+        "visible": true
+    },
+    {
+        "name": "Highridge Fugitive",
+        "rarity": 2,
+        "element": 4,
+        "ability": 1,
+        "health": 60,
+        "damage": 30,
+        "id": 3653438438,
+        "visible": true
+    },
+    {
+        "name": "The son of Hyperion",
+        "rarity": 2,
+        "element": 1,
+        "ability": 3,
+        "health": 13,
+        "damage": 16,
+        "id": 375451246,
+        "visible": true
+    },
+    {
+        "name": "Hollowed Harpy",
+        "rarity": 1,
+        "element": 6,
+        "ability": null,
+        "health": 30,
+        "damage": 30,
+        "id": 1929271755,
+        "visible": true
     }
 ]

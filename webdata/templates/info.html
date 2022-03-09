@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jumnji Main Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='content/favicon.ico') }}">
+  </head>
+  
+  <body>
+
+    <main id="main-holder">
+      
+      <h1 id="error">info</h1>
+
+      <p id="error">{{info}}</p>
+    
+      <a href="/"><button>Main Menu</button></a>
+
+
+    </main> 
+
+  </body>
+</html>

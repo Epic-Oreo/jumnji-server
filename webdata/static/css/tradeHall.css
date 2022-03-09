@@ -1,0 +1,148 @@
+:root {
+ /* styleing  */
+
+  --text-color: white;
+
+  --main-background: #2F2F2E;
+
+  --secondary-background: #313030;
+
+  --item-background-color: rgb(34, 36, 38);
+
+  /* --accent-color: #FF4C29; */
+  --accent-color: #718e73;
+
+}
+
+body {background: #333; height: 1500px;}
+html {
+
+  text-align: center;
+
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: transparent;
+  scrollbar-dark-shadow-color: #646464;
+}
+
+::-webkit-scrollbar { width: 8px; height: 3px;}
+/* ::-webkit-scrollbar-button {  background-color: #666; } */
+::-webkit-scrollbar-track {  background-color: #646464; margin-left: -200px;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}
+/* ::-webkit-resizer { background-color: #666;} */
+
+#outerGrid {
+  /* margin: 3px; */
+  height: 100%;
+  width: 100%;
+  overflow-y:auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  /* padding: 10px; */
+}
+
+.grid-item {
+  border-radius: 7px;
+  /* width: 33%; */
+  /* height: 320px; */
+  height: fit-content;
+  background-color: var(--item-background-color);
+  overflow-y: auto;
+}
+
+
+a {
+  text-decoration: none; 
+  color: white;
+}
+
+.fitSize {
+  width: fit-content;
+  display: inline;
+}
+
+
+.bottom-text {
+  text-align: left;
+}
+.bottom{
+  
+}
+
+.buyButton {
+  border-radius: 7px;
+  text-decoration: none;
+  width: fit-content;
+  padding: 0.1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: var(--text-color);
+  border: none;
+
+  /* extra styles */
+  background-color: var(--secondary-background);
+  margin-top: 5px; 
+  transition-duration: 1s;
+  font-size: 15px;
+}
+
+.buyButton:hover {
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.Common{
+  color:#dadada;
+} 
+.Rare{
+  color:#0087ff;
+} 
+.Epic{
+  color:#ff00ff;
+} 
+.Mythic{
+ color:#ffd700;
+} 	
+.Fire{
+  color: #d70000;
+} 
+.Water{
+  color: #afffff;
+} 
+.Air{
+  color: #afd7ff;
+} 
+.Earth{
+  color: #875f00;
+} 	
+.Light{
+  color: #ffffaf;
+} 
+.Darkness{
+  color: #4e4e4e;
+}
+.Dream{
+  color: #ffd7ff;
+} 
+.Life{
+  color: #00ff00;
+} 
+
+.money {
+  color: #5fff5f;
+}
+
+.health {
+  color: red
+}
+
+.attack {
+  color: rgb(255, 255, 161)
+}
